@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A73BEDA6-E062-778B-D641-D09D9BC49585" name="SIM_project_emp">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:17:06 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Conceptual</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="FE0F6357-E3CF-F7BA-3FC8-95FC5F4580B6" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>2566BD54-4FD6-8287-B3DA-25EB6AE7FDA0</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="title" id="BC895A9C-B867-64BD-14F0-C8A38608FAB8">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:17:25 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Conceptual</ownerDesignName>
+<engineerTo>
+<item key="FE0F6357-E3CF-F7BA-3FC8-95FC5F4580B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="B0B30E39-9F70-8A8C-683E-D0CC865707D3">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:17:49 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Conceptual</ownerDesignName>
+<engineerTo>
+<item key="FE0F6357-E3CF-F7BA-3FC8-95FC5F4580B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="dept_id" id="386B4052-6E7E-4505-5782-BB10C04EB4C7">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:18:19 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Conceptual</ownerDesignName>
+<engineerTo>
+<item key="FE0F6357-E3CF-F7BA-3FC8-95FC5F4580B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="A2CD9666-CFAF-FD4B-C3DF-78AD22271B88">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:24:59 UTC</createdTime>
+<generatorID>4A6F3838-1DE5-EE67-37BA-926AA3A91BA6</generatorID>
+<ownerDesignName>SIM database HW4 Conceptual</ownerDesignName>
+<engineerTo>
+<item key="FE0F6357-E3CF-F7BA-3FC8-95FC5F4580B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1D204A1B-CE3E-CB99-DF55-7297FB5610BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_3" directorySegmentName="seg_0" id="82F0C3EE-16F9-E286-BE71-742AE6D9FDAD">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:29:51 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Conceptual</ownerDesignName>
+<engineerTo>
+<item key="FE0F6357-E3CF-F7BA-3FC8-95FC5F4580B6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>85424E9C-9234-D33E-7315-18382F835E0B</sourceEntity>
+<targetEntity>2566BD54-4FD6-8287-B3DA-25EB6AE7FDA0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

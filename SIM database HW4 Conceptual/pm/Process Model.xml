@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="6CA58BD6-582D-6E78-40CD-D7BC7B2BD9EF">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 04:53:22 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Conceptual</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

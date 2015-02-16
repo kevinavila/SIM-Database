@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R3" directorySegmentName="seg_0" id="A51D5C32-1477-8B44-2286-197524D68C7E">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:24:42 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Conceptual</ownerDesignName>
+<engineerTo>
+<item key="FE0F6357-E3CF-F7BA-3FC8-95FC5F4580B6" value="true"/>
+</engineerTo>
+<sourcePk>10866094-1C03-73F9-C2E3-9E6965333064</sourcePk>
+<targetPk>A7BE9C82-85A5-20F2-BD18-2AE7B5AC66A6</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65569EA3-A4AF-AA40-F4AA-597EA56CE5B2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>420C5DA2-0197-951C-D106-ED9EF75EB76C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

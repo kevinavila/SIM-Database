@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SIM database HW4 Conceptual" id="B28DB78D-CE23-2DC6-CDEC-27696C0644EB" version="3.5">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 04:53:22 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Conceptual</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B28DB78D-CE23-2DC6-CDEC-27696C0644EB</designId>
+</OSDM_Design>
