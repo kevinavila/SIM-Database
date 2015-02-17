@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD2338B6-30A7-F073-AC72-FDF04C725C0D" name="SIM_dept">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 06:27:47 UTC</createdTime>
+<generatorID>420C5DA2-0197-951C-D106-ED9EF75EB76C</generatorID>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dept_id" id="A955D0FA-D9BB-26DC-2A2E-F5BB55287174">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 06:27:47 UTC</createdTime>
+<generatorID>1D204A1B-CE3E-CB99-DF55-7297FB5610BE</generatorID>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="AD8750E1-7A79-5B26-2702-486EBABD9D47">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 06:27:47 UTC</createdTime>
+<generatorID>0B13BF57-AED2-207F-A3B7-3C5523416CA4</generatorID>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location" id="083F5299-4D78-017E-312C-089D1F45DD66">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 06:27:47 UTC</createdTime>
+<generatorID>99F14FDA-9602-980C-7830-D3940EF62AE8</generatorID>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_Person_person_id" id="EFE4FAA3-220B-3B16-AB0C-06E1CB4E1926">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 06:27:47 UTC</createdTime>
+<generatorID>F8DAFF8C-68ED-98EF-0B38-BCE3C9A91AA4</generatorID>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>627917C3-3B36-3FE7-016A-EA467CD4E515</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71394EBC-C139-D840-31C4-3B9C6025C0E8" referredColumn="627917C3-3B36-3FE7-016A-EA467CD4E515"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08D84653-A686-FE69-3719-F6B5FD80C6BA" name="SIM_dept_PK">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 06:27:47 UTC</createdTime>
+<generatorID>A7BE9C82-85A5-20F2-BD18-2AE7B5AC66A6</generatorID>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A955D0FA-D9BB-26DC-2A2E-F5BB55287174"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B117B27E-A807-A80E-81FD-0D1DCBA3D14D" name="SIM_dept__IDX">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 06:27:48 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F0F6CEB5-F39E-C48E-809F-042B0943C130</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EFE4FAA3-220B-3B16-AB0C-06E1CB4E1926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90F22F57-E822-7D35-45DC-B3B458EA4C71" name="SIM_dept_SIM_Person_FK">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 06:27:48 UTC</createdTime>
+<generatorID>F0F6CEB5-F39E-C48E-809F-042B0943C130</generatorID>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFE4FAA3-220B-3B16-AB0C-06E1CB4E1926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

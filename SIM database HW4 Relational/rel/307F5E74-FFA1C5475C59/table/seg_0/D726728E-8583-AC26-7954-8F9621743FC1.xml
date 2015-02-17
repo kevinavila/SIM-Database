@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D726728E-8583-AC26-7954-8F9621743FC1" name="SIM_project">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>C4AB2616-632D-5520-EDA7-AA8F16FACC98</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="project_id" id="1B6245A0-C8A0-899B-C1E5-4E6C43BB9E5F">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>87E62370-8C6E-D585-66D5-CDDE40FFA4EC</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="759C3B1C-13FA-BC6E-5964-540497C8FE3A">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>0F00A3FF-4047-D08A-E2B7-2DBC9E8D61C0</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id" id="23B79A1B-392C-CBD4-6390-52ECF5F2B85D">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>F364EAEE-EB7E-8507-6419-04470499A66A</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F7C3CEF6-7033-F0C3-6C5A-AE7D4010F881</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A233AD7-708F-DFB4-4D4E-8EF946C731C9" referredColumn="F7C3CEF6-7033-F0C3-6C5A-AE7D4010F881"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A73DCCD-72D2-6B07-D67A-2812CA52CBB1" name="SIM_project_PK">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>8866901D-8939-BD4A-ABA0-F78C93B82F36</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B6245A0-C8A0-899B-C1E5-4E6C43BB9E5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="054D1742-4FA7-BACA-0C95-B2186E7D8149" name="SIM_project_SIM_dept_FK">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>FADCB2E7-8EA8-83DA-6CFF-D62CA0BE9732</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23B79A1B-392C-CBD4-6390-52ECF5F2B85D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

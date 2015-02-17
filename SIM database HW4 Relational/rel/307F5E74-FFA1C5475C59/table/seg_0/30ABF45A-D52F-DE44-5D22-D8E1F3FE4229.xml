@@ -1,0 +1,275 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30ABF45A-D52F-DE44-5D22-D8E1F3FE4229" name="SIM_Person">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:50 UTC</createdTime>
+<generatorID>85424E9C-9234-D33E-7315-18382F835E0B</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="702AA078-977F-2206-E7D7-5390F559DCD8">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>801CF1AB-A8F0-4F1B-54CD-FDADC1E01B12</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="72A21172-C6BF-2F23-7D7D-7DD6735A21EF">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>B28D9707-BA67-E4EA-D935-8A8DD9F51645</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="5562D21C-7714-E23F-72BA-3C05F1D4A819">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>19E9F537-6417-AD3C-BD50-958CC900874B</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ssnum" id="C20B07C4-5B65-EA8A-A103-0F506B3DCFA5">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>1B2400EA-9B7D-D0F0-FB85-55A2731F000A</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="2DF5826B-499F-4A66-BD2B-7BB5736E9301">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>9E2F6A2C-B754-9829-F683-D7DADACEBAB2</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="223428D1-A041-5212-B8E9-AA03D9E33D36">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>217F900A-15F8-78C4-CE18-9503EB8CF743</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="31BA5FF1-1D23-1935-C1A2-D42E4E7479CC">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>4F0FA8A4-1EC3-0F1B-2C93-97BD2F2172E8</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="F6F50A77-69C9-38E3-E1ED-9DE18706AFE6">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>DE593BDC-D436-393E-E523-D1312FA0E61E</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="C19772D6-EEB8-84E9-3463-BB1017947E87">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>D437D1EF-9C1C-EA6C-6FE2-23F9D41220E9</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="zip" id="C2A88C8A-06D8-400A-144B-E96F6C46CAF3">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>7BE2B341-0F54-1B24-EEEC-B41C15D050B9</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hire_date" id="BA04ED0F-CFFA-6AE5-D9D7-74C5105CD672">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>C310A72D-84AB-265C-1DCA-7402B434DF88</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salary" id="9509E6C2-6D62-7E45-98E7-3E5C9992F968">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>79F2E906-26E7-0958-BC7E-3AD6EB4DF5DF</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="9D9A467D-DC4E-18F7-5B28-A0FB7DAA00D1">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>4BE00F97-7101-04E7-A482-BA99E0240ACD</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="title" id="8EDD8E25-66C9-C634-C313-63C7C2BC3FB5">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>F48C1704-36DB-DD43-432C-10BB68026958</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="309539E6-D0F1-C583-FC98-3D6EA700F7C8">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>86E8A1B2-690E-78B8-31D9-548E9D7BD350</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bonus" id="E28E5F70-80C0-51BA-494F-6AE1F9357B42">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>6514B02B-0244-48FC-C463-8993B4012438</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SIM_dept_dept_id" id="6492A94F-98F9-C58D-4174-D6531F5BE08B">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>8D9E191F-A141-49FF-912F-2225B4E3CE20</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F7C3CEF6-7033-F0C3-6C5A-AE7D4010F881</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F611F769-D6DD-0E85-EB85-7175897CC42B" referredColumn="F7C3CEF6-7033-F0C3-6C5A-AE7D4010F881"/>
+</associations>
+</Column>
+<Column name="SIM_dept_dept_id1" id="D4134515-E849-8F4B-2026-1299981EC4C7">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>665A5EBE-B026-0C6F-D74D-4B497E884265</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<delegate>F7C3CEF6-7033-F0C3-6C5A-AE7D4010F881</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7736C931-4B06-172A-CBED-61C1778BDB06" referredColumn="F7C3CEF6-7033-F0C3-6C5A-AE7D4010F881"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA106ED4-E812-6E33-6130-742A2EC414CD" name="SIM_Person_PK">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>436ECF62-4A1B-257E-DD82-A8D310A19B75</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="702AA078-977F-2206-E7D7-5390F559DCD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38942497-391F-DD9C-527E-F0F2ECB935DD" name="SIM_Person__IDX">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F0F6CEB5-F39E-C48E-809F-042B0943C130</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D4134515-E849-8F4B-2026-1299981EC4C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEAE328E-629F-B40D-E6CB-0DCB16AD4F6D" name="SIM_Person_SIM_dept_FK">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>84F20743-BF4E-7C0C-2AE9-8CCAF6F21C0A</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6492A94F-98F9-C58D-4174-D6531F5BE08B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F172143D-5283-0468-AF63-CEAE539CDB60" name="SIM_Person_SIM_dept_FKv1">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-17 08:25:51 UTC</createdTime>
+<generatorID>F0F6CEB5-F39E-C48E-809F-042B0943C130</generatorID>
+<ownerDesignName>SIM database HW4 Relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4134515-E849-8F4B-2026-1299981EC4C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

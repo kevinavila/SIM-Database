@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85424E9C-9234-D33E-7315-18382F835E0B" name="SIM_Person">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:11:07 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="person_id" id="801CF1AB-A8F0-4F1B-54CD-FDADC1E01B12">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:12:18 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="type" id="B28D9707-BA67-E4EA-D935-8A8DD9F51645">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 23:23:17 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="name" id="19E9F537-6417-AD3C-BD50-958CC900874B">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:12:41 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="ssnum" id="1B2400EA-9B7D-D0F0-FB85-55A2731F000A">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:13:09 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="gender" id="9E2F6A2C-B754-9829-F683-D7DADACEBAB2">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:13:28 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="birth_date" id="217F900A-15F8-78C4-CE18-9503EB8CF743">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:13:42 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="address" id="4F0FA8A4-1EC3-0F1B-2C93-97BD2F2172E8">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:13:59 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="city" id="DE593BDC-D436-393E-E523-D1312FA0E61E">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:14:10 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="state" id="D437D1EF-9C1C-EA6C-6FE2-23F9D41220E9">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:14:28 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="zip" id="7BE2B341-0F54-1B24-EEEC-B41C15D050B9">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:14:49 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="hire_date" id="C310A72D-84AB-265C-1DCA-7402B434DF88">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 23:21:06 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="salary" id="79F2E906-26E7-0958-BC7E-3AD6EB4DF5DF">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 23:21:27 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="status" id="4BE00F97-7101-04E7-A482-BA99E0240ACD">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 23:21:43 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="title" id="F48C1704-36DB-DD43-432C-10BB68026958">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 23:26:38 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="rating" id="86E8A1B2-690E-78B8-31D9-548E9D7BD350">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 23:26:59 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="bonus" id="6514B02B-0244-48FC-C463-8993B4012438">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 23:29:40 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+</Attribute>
+<Attribute name="dept_id" id="8D9E191F-A141-49FF-912F-2225B4E3CE20">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 23:39:45 UTC</createdTime>
+<generatorID>84F20743-BF4E-7C0C-2AE9-8CCAF6F21C0A</generatorID>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1D204A1B-CE3E-CB99-DF55-7297FB5610BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+<Attribute name="dept_id1" id="665A5EBE-B026-0C6F-D74D-4B497E884265">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 23:40:33 UTC</createdTime>
+<generatorID>F0F6CEB5-F39E-C48E-809F-042B0943C130</generatorID>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1D204A1B-CE3E-CB99-DF55-7297FB5610BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="436ECF62-4A1B-257E-DD82-A8D310A19B75" name="{entity} PK">
+<createdBy>Klownin</createdBy>
+<createdTime>2015-02-16 06:12:38 UTC</createdTime>
+<ownerDesignName>SIM database HW4 Logical</ownerDesignName>
+<engineerTo>
+<item key="11B77E11-D0DA-C653-3DEE-27BEACDCD28E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>801CF1AB-A8F0-4F1B-54CD-FDADC1E01B12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
