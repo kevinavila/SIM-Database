@@ -2,8 +2,7 @@ drop view sim_project_emp ;
 drop view sim_manager ;
 
 create view sim_project_emp as
-SELECT PERSON_ID, TYPE, NAME, SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP,
-TITLE, RATING, SIM_DEPT_DEPT_ID 
+SELECT PERSON_ID, TYPE, NAME, SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP, HIRE_DATE, SALARY, STATUS, TITLE, RATING, SIM_DEPT_DEPT_ID 
 FROM SIM_PERSON
 WHERE TYPE = 'Project Employee' ;
 
@@ -22,6 +21,9 @@ BEGIN
         CITY,
         STATE,
         ZIP,
+        HIRE_DATE,
+        SALARY,
+        STATUS,
         TITLE,
         RATING,
         SIM_DEPT_DEPT_ID)
@@ -36,6 +38,9 @@ BEGIN
         :new.CITY,
         :new.STATE,
         :new.ZIP,
+        :new.HIRE_DATE,
+        :new.SALARY,
+        :new.STATUS,
         :new.TITLE,
         :new.RATING,
         :new.SIM_DEPT_DEPT_ID) ;
@@ -43,8 +48,7 @@ END;
 /
 
 create view sim_manager as
-SELECT PERSON_ID, TYPE, NAME, SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP,
-TITLE, BONUS, SIM_DEPT_DEPT_ID 
+SELECT PERSON_ID, TYPE, NAME, SSNUM, GENDER, BIRTH_DATE, ADDRESS, CITY, STATE, ZIP, HIRE_DATE, SALARY, STATUS, TITLE, BONUS, SIM_DEPT_DEPT_ID 
 FROM SIM_PERSON
 WHERE TYPE = 'Manager' ;
 
@@ -63,12 +67,15 @@ BEGIN
         CITY,
         STATE,
         ZIP,
+        HIRE_DATE,
+        SALARY,
+        STATUS,
         TITLE,
         BONUS,
         SIM_DEPT_DEPT_ID)
      VALUES (
         :new.PERSON_ID,
-        'Project Employee',
+        'Manager',
         :new.NAME,
         :new.SSNUM,
         :new.GENDER,
@@ -77,6 +84,9 @@ BEGIN
         :new.CITY,
         :new.STATE,
         :new.ZIP,
+        :new.HIRE_DATE,
+        :new.SALARY,
+        :new.STATUS,
         :new.TITLE,
         :new.BONUS,
         :new.SIM_DEPT_DEPT_ID) ;
